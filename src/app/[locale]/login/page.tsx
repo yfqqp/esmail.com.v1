@@ -1,6 +1,9 @@
 // src/app/[locale]/login/page.tsx
 'use client'
 
+// إجبار Next.js على بناء هذه الصفحة ديناميكياً وقت التشغيل لتخطي أخطاء الـ Prerender و next-intl
+export const dynamic = 'force-dynamic'
+
 import { useState, type FormEvent } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
