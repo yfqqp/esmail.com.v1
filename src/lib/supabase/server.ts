@@ -1,13 +1,11 @@
 // src/lib/supabase/server.ts
-// Server-side Supabase client using @supabase/ssr cookie-based auth.
-// Use this in: Server Components, Route Handlers, middleware.
-// Never import this file into Client Components.
-
 import { createServerClient } from '@supabase/ssr'
-import { cookies } from 'next/headers'
 import type { Database } from '@/types/database'
 
+// دالة العميل العادي المعتمد على الكوكيز (للمستخدمين)
 export async function createClient() {
+  // استدعاء ديناميكي لمنع الكومبيلر من الاعتراض أثناء الـ Build
+  const { cookies } = await import('next/headers')
   const cookieStore = await cookies()
 
   return createServerClient<Database>(
@@ -24,7 +22,7 @@ export async function createClient() {
               cookieStore.set(name, value, options)
             )
           } catch {
-            // setAll called from Server Component — benign, middleware handles refresh
+            // benign
           }
         },
       },
@@ -32,17 +30,19 @@ export async function createClient() {
   )
 }
 
-// Service-role client — bypasses RLS entirely.
-// Use ONLY in trusted server-side contexts (background jobs, admin seed scripts,
-// AI embedding pipeline). NEVER expose to the browser or use in Route Handlers
-// that respond to user-supplied input without additional authorization checks.
+// دالة عميل السيرفر الصلاحيات الكاملة (تتخطى الـ RLS)
 export function createServiceClient() {
   return createServerClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!, // التأكد من استخدام السيرفس رول كي هنا
     {
-      cookies: { getAll: () => [], setAll: () => {} },
-      auth: { persistSession: false },
+      cookies: { 
+        getAll: () => [], 
+        setAll: () => {} 
+      },
+      auth: { 
+        persistSession: false 
+      },
     }
   )
 }
