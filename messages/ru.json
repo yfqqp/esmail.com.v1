@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "story": "История",
+    "academic": "Учёба",
+    "projects": "Проекты",
+    "thoughts": "Мысли",
+    "interests": "Интересы",
+    "vision": "Видение",
+    "quotes": "Цитаты",
+    "ai": "ИИ",
+    "blog": "Блог",
+    "gallery": "Галерея",
+    "admin": "Панель"
+  },
+  "sections": {
+    "myStory": "Моя история",
+    "academic": "Академический путь",
+    "projects": "Проекты",
+    "thoughts": "Личные мысли",
+    "interests": "Хобби и интересы",
+    "vision": "Видение",
+    "quotes": "Цитаты и принципы",
+    "ai": "ИИ-ассистент"
+  },
+  "common": {
+    "readMore": "Читать далее",
+    "viewAll": "Посмотреть всё",
+    "learnMore": "Узнать больше",
+    "close": "Закрыть",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Изменить",
+    "add": "Добавить",
+    "loading": "Загрузка...",
+    "error": "Что-то пошло не так.",
+    "success": "Успешно сохранено.",
+    "confirmDelete": "Вы уверены, что хотите удалить?",
+    "noResults": "Ничего не найдено.",
+    "published": "Опубликовано",
+    "draft": "Черновик",
+    "archived": "Архив"
+  },
+  "admin": {
+    "dashboard": "Панель управления",
+    "sections": "Разделы",
+    "projects": "Проекты",
+    "timeline": "Хронология",
+    "blog": "Блог",
+    "certificates": "Сертификаты",
+    "quotes": "Цитаты",
+    "media": "Медиабиблиотека",
+    "aiKnowledge": "База знаний ИИ",
+    "theme": "Тема",
+    "navigation": "Навигация",
+    "seo": "SEO",
+    "analytics": "Аналитика",
+    "settings": "Настройки",
+    "users": "Пользователи",
+    "viewSite": "Просмотр сайта",
+    "signOut": "Выйти"
+  },
+  "ai": {
+    "placeholder": "Спросите об Исмаиле...",
+    "send": "Отправить",
+    "online": "Онлайн",
+    "poweredBy": "Работает на Claude AI"
+  }
+}

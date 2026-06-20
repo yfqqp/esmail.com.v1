@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "story": "قصتي",
+    "academic": "المسيرة الأكاديمية",
+    "projects": "المشاريع",
+    "thoughts": "الأفكار",
+    "interests": "الاهتمامات",
+    "vision": "الرؤية",
+    "quotes": "الاقتباسات",
+    "ai": "الذكاء الاصطناعي",
+    "blog": "المدونة",
+    "gallery": "المعرض",
+    "admin": "الإدارة"
+  },
+  "sections": {
+    "myStory": "قصتي",
+    "academic": "المسيرة الأكاديمية",
+    "projects": "المشاريع",
+    "thoughts": "أفكار شخصية",
+    "interests": "الهوايات والاهتمامات",
+    "vision": "الرؤية",
+    "quotes": "الاقتباسات والمبادئ",
+    "ai": "المساعد الذكي"
+  },
+  "common": {
+    "readMore": "اقرأ المزيد",
+    "viewAll": "عرض الكل",
+    "learnMore": "تعلم المزيد",
+    "close": "إغلاق",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ ما.",
+    "success": "تم الحفظ بنجاح.",
+    "confirmDelete": "هل أنت متأكد من الحذف؟",
+    "noResults": "لا توجد نتائج.",
+    "published": "منشور",
+    "draft": "مسودة",
+    "archived": "مؤرشف"
+  },
+  "admin": {
+    "dashboard": "لوحة التحكم",
+    "sections": "الأقسام",
+    "projects": "المشاريع",
+    "timeline": "الجدول الزمني",
+    "blog": "المدونة",
+    "certificates": "الشهادات",
+    "quotes": "الاقتباسات",
+    "media": "مكتبة الوسائط",
+    "aiKnowledge": "قاعدة المعرفة",
+    "theme": "التصميم",
+    "navigation": "التنقل",
+    "seo": "تحسين محركات البحث",
+    "analytics": "التحليلات",
+    "settings": "الإعدادات",
+    "users": "المستخدمون",
+    "viewSite": "عرض الموقع",
+    "signOut": "تسجيل الخروج"
+  },
+  "ai": {
+    "placeholder": "اسأل عن إسماعيل...",
+    "send": "إرسال",
+    "online": "متصل",
+    "poweredBy": "مدعوم بـ Claude AI"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "story": "Story",
+    "academic": "Academic",
+    "projects": "Projects",
+    "thoughts": "Thoughts",
+    "interests": "Interests",
+    "vision": "Vision",
+    "quotes": "Quotes",
+    "ai": "AI",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "admin": "Admin"
+  },
+  "sections": {
+    "myStory": "My Story",
+    "academic": "Academic Journey",
+    "projects": "Projects",
+    "thoughts": "Personal Thoughts",
+    "interests": "Hobbies & Interests",
+    "vision": "Vision",
+    "quotes": "Quotes & Principles",
+    "ai": "AI Assistant"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "success": "Saved successfully.",
+    "confirmDelete": "Are you sure you want to delete this?",
+    "noResults": "No results found.",
+    "published": "Published",
+    "draft": "Draft",
+    "archived": "Archived"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "sections": "Sections",
+    "projects": "Projects",
+    "timeline": "Timeline",
+    "blog": "Blog",
+    "certificates": "Certificates",
+    "quotes": "Quotes",
+    "media": "Media Library",
+    "aiKnowledge": "AI Knowledge",
+    "theme": "Theme",
+    "navigation": "Navigation",
+    "seo": "SEO",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "users": "Users",
+    "viewSite": "View Site",
+    "signOut": "Sign Out"
+  },
+  "ai": {
+    "placeholder": "Ask about Ismail...",
+    "send": "Send",
+    "online": "Online",
+    "poweredBy": "Powered by Claude AI"
+  }
+}
